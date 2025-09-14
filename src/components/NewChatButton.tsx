@@ -2,12 +2,10 @@ import { Box, IconButton, Button, Tooltip } from "@mui/material";
 import ShareIcon from "@mui/icons-material/Share";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import AddIcon from "@mui/icons-material/Add";
-import { useNavigate } from "react-router-dom";
 import { useMessage } from "./MessageContext";
 
 
 export default function NewChatButton() {
-  const navigate=useNavigate();
 const { onNewChat } = useMessage();
   return (
     <Box display="flex" alignItems="center" gap={1}>

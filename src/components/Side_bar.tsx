@@ -27,8 +27,8 @@ import { useMessage } from "./MessageContext";
 
 
 const Side_bar = () => {
-const { messages, onNewChat } = useMessage();
-  const chats = messages.map((msg, index) => msg.text);
+const { messages } = useMessage();
+  const chats = messages.map((msg) => msg.text);
   const [open, setOpen] = useState(true);
 
   return (

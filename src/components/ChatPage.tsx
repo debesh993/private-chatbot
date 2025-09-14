@@ -8,7 +8,7 @@ import { useMessage } from "./MessageContext";
 
 
 const ChatPage = () => {
-    const { messages, onQuestionClick } = useMessage();
+    const { messages } = useMessage();
 
     return (
         <Box sx={{ display: "flex", flexDirection: "column", justifyContent: "space-between", height: "100%" }}>
