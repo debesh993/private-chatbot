@@ -1,8 +1,6 @@
 import { Box } from "@mui/material";
 import Side_bar from "./Side_bar";
 import Side_bar1 from "./Side_bar1";
-import LearnCards from "./LearnCards";
-import ChatInput from "./ChatInput";
 import NewChatButton from "./NewChatButton";
 import { Outlet } from "react-router-dom";
 

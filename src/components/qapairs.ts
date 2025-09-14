@@ -14,10 +14,10 @@ export const qaPairs: QAPair[] = [
   },
   {
     question: "how are you",
-    answer: "I'm just a program, but I'm functioning perfectly! 😄",
+    answer: "I'm just a program, but I'm functioning perfectly! ",
   },
 
-  // From your LearnCards
+
   {
     question: "give me a concise summary of this meeting transcript",
     answer: "Here’s a concise summary of the meeting: [Insert summary here].",
