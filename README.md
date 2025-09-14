@@ -1,6 +1,6 @@
-# Inteliq - AI Chat Application
+#  AI Chat Application
 
-Inteliq is an interactive chat application that lets users ask questions and get instant responses. It comes with a modern, responsive interface, quick-access cards for common queries, and full support for attachments like files and images.  
+This is an interactive chat application that lets users ask questions and get instant responses. It comes with a modern, responsive interface, quick-access cards for common queries, and full support for attachments like files and images.  
 
 ---
 
